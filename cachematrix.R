@@ -19,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Return the Inverse of Matrix if available from Cache
-## If it is not available in Cahce, then calculate it 
+## If it is not available in Cahce, then calculate and return the Inverse Matrix
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
